@@ -56,7 +56,7 @@ Clavicula;Schlüsselbein
 CO;Kohlenmonoxid
 CO2;Kohlendioxid
 Colon;Dickdarm
-COPD;chronische Lungenerkrankung
+COPD;chronisch obstruktive Lungenerkrankung
 CVRF;kardiovaskuläre Risikofaktoren
 Dekompensation;Organversagen
 Dekubitus;Druckgeschwür
@@ -69,7 +69,7 @@ Diffusion;Stoffaustausch
 Dilatation;Erweiterung
 distal;fern vom Rumpf
 Distorsion;Verstauchung
-DMS(-Kontrolle);Durchblutungs-/Nervenprüfung
+DMS(-Kontrolle);Durchblutungs-/Motorik-/Sensibilitätskontrolle
 DNR/DNAR;keine Reanimation
 Duodenum;Zwölffingerdarm
 Dura mater;harte Hirnhaut
@@ -87,7 +87,7 @@ Epikard;Herzaußenhaut
 Epilepsie;Krampfleiden
 Epistaxis;Nasenbluten
 Erythrozyten;rote Blutkörperchen
-Esmarch-Handgriff;Stauerungshilfe
+Esmarch-Handgriff;Handgriff zur Freihaltung der Atemwege
 etCO2;ausgeatmetes CO₂
 exokrin;Sekrete nach außen abgebend
 Exsikkose;Austrocknung
@@ -101,15 +101,15 @@ Femur;Oberschenkelknochen
 Fibrose;Bindegewebsvermehrung
 Fibula;Wadenbein
 FiO2;Sauerstoffanteil in der Atemluft
-FMS/FME;Funktionstests
+FMS/FME;Funkmeldesystem / Funkmeldeempfänger
 Foetor;Geruch
 fokal;örtlich begrenzt
 Fontanelle;Schädelweichstelle
 Fraktur;Knochenbruch
 Frequenz;Häufigkeit
 Fritsch’sche Lagerung;Seitenlagerung
-GAMS;neurologische Merkhilfe
-Garant/Garantenstellung;rechtliche Haftpflicht
+GAMS;Merkregel: Gefahr erkennen, Absperren, Menschenrettung, Spezialkräfte anfordern
+Garant/Garantenstellung;rechtliche Handlungspflicht
 Gaster;Magen
 GCS;Bewusstseinszustand
 Gefahrenmatrix;Risikoübersicht
@@ -134,7 +134,7 @@ HHHH – HITS;Merkhilfe
 Histamin;Entzündungsstoff
 Humerus;Oberarmknochen
 HWS;Halswirbelsäule
-hydrodynamer Kreislaufstillstand;Herz-Kreislaufstillstand (niedriger Auswurf)
+hypodynamer Kreislaufstillstand;Herz-Kreislaufstillstand (niedriger Auswurf)
 hyperdynamer Kreislaufstillstand;Herz-Kreislaufstillstand (hoher Auswurf)
 Hyperglykämie;hoher Blutzucker
 hypertensive Krise/hypertensiver Notfall;starker Blutdruckanstieg
@@ -147,7 +147,7 @@ Hypoxie;Sauerstoffmangel
 HZV (HMV);Herzzeitvolumen
 Ikterus;Gelbsucht
 Ileus;Darmverschluss
-ILS;Notfallmaßnahmen
+ILS;Integrierte Leitstelle (Alarmierungszentrale)
 Immunisierung;Impfung
 Indikation;Anwendungsgrund
 Infektion;Ansteckung
@@ -157,17 +157,17 @@ Inkubationszeit;Zeit bis Erkrankungsbeginn
 Inspiration;Einatmung
 Intoxikation;Vergiftung
 intrakraniell;schädelinnerhalb
-Intubation (endotracheal);Luftröhrenschlauch
-inverse Atmung;entgegen der Norm
+Intubation (endotracheal);Einführen eines Schlauchs in die Luftröhre
+inverse Atmung;umgekehrte Atembewegungen von Brustkorb und Bauch
 Ischämie;Minderdurchblutung
 Isokorie;gleiche Pupillenweite
-isoton;gleicher Druck
-#NAME?;Entzündung
+isoton;gleicher osmotischer Druck
+itis (Suffix);Entzündung
 Kaffeesatzerbrechen;geronnenes Erbrechen
 Kammerflattern/-flimmern;Herzrhythmusstörung
 Kapnometrie/Kapnographie;CO₂-Messung
 Kardiogen;vom Herz ausgehend
-KIT;Notfallkoffer
+KIT;Kriseninterventionsteam
 klonisch;ruckartige Muskelbewegung
 Kolik;krampfartige Schmerzen
 Koma/komatös;Bewusstlosigkeit
@@ -177,14 +177,14 @@ Kontraindikation;Gegenanzeige
 Kontraktion;Zusammenziehen
 Kontusion;Prellung
 Krepitation;Reibegeräusch
-Kussmaul-Atmung;tiefe, langsame Atmung
+Kussmaul-Atmung;sehr tiefe, regelmäßige Atmung
 Kyphose;Rundrücken
 Laryngoskop;Kehlkopfspiegel
 Larynx;Kehlkopf
 Leukozyten;weiße Blutkörperchen
 Linksseitenlage;linke Seitenlage
 Liquor;Gehirn-Rückenmarks-Flüssigkeit
-LNA;Larynxmaske
+LNA;Leitender Notarzt
 Lordose;Hohlkreuz
 LTB (Laryngotracheobronchitis);Krupp bei Kindern
 LUCAS®;mechanische Thoraxkompression
@@ -198,7 +198,7 @@ Manometer;Druckmessgerät
 Mastzellen;Abwehrzellen
 Mediastinum;Mittelfellraum
 Medulla oblongata;verlängertes Rückenmark
-Mekonium;erster Babysaft
+Mekonium;Kindspech (erster Stuhl des Neugeborenen)
 Meningitis;Hirnhautentzündung
 Mesenterialinfarkt;Darmgefäßverschluss
 Mesenterium;Darmaufhängung
@@ -216,7 +216,7 @@ nosokomial;im Krankenhaus erworben
 Obstruktion/obstruktiv;Verschluss/Verengung
 Ödem;Flüssigkeitsansammlung
 OPQRST;Schmerzassessment
-OrgL;Organversagen
+OrgL;Organisatorischer Leiter Rettungsdienst
 Osmose;Wassertransport
 Ösophagus;Speiseröhre
 Ovarien;Eierstöcke
