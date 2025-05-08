@@ -1,16 +1,28 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
-    <meta charset="UTF-8">
-    <title>Startseite</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Startseite Karteikarten</title>
+  <style>
+    body { font-family: Arial, sans-serif; text-align: center; margin: 2em; }
+    h1 { margin-bottom: 1.5em; }
+    .btn {
+      display: inline-block;
+      margin: 0.5em;
+      padding: 1em 2em;
+      font-size: 1em;
+      text-decoration: none;
+      color: white;
+      background-color: #007BFF;
+      border-radius: 6px;
+    }
+    .btn:hover { background-color: #0056b3; }
+  </style>
 </head>
 <body>
-    <h1>Startseite</h1>
-    <button onclick="location.href='Karteikarten.html'">Karteikarten</button>
-    <button onclick="location.href='Karteikarten-Auswahl.html'">Karteikarten Quiz</button>
-    <!-- Neue Buttons für Messwerte -->
-    <button onclick="location.href='Karteikarten-Messwerte.html'">Karteikarten Messwerte</button>
-    <button onclick="location.href='Karteikarten-Messwerte-Quiz.html'">Karteikarten Messwerte Quiz</button>
+  <h1>Karteikarten-Übung</h1>
+  <a href="Karteikarten.html" class="btn">Karteikarten ansehen</a>
+  <a href="Karteikarten-Auswahl.html" class="btn">Karteikarten Quiz</a>
 </body>
 </html>
