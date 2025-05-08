@@ -14,16 +14,18 @@
     <p id="antwort"></p>
   </div>
   <button id="next">Nächste Karte</button>
+  <a href="index.html" class="btn">← Zurück zur Startseite</a>
 
   <script>
     let faList = [];
+
     function showRandom() {
       const idx = Math.floor(Math.random() * faList.length);
       const item = faList[idx];
       document.getElementById('frage').textContent = item.frage;
       const antwortEl = document.getElementById('antwort');
       antwortEl.textContent = item.antwort;
-      // CSS übernimmt display:none, JS braucht es hier nicht setzen
+      antwortEl.style.display = 'none';
     }
 
     Papa.parse('messwerte.csv', {
@@ -31,14 +33,17 @@
       header: true,
       complete: function(results) {
         faList = results.data;
-        showRandom();
+        showRandom();              // Zufalls-Karte beim Laden
       }
     });
 
-    document.getElementById('showAnswer').addEventListener('click', () => {
-      document.getElementById('antwort').style.display = 'block';
-    });
-    document.getElementById('next').addEventListener('click', showRandom);
+    document.getElementById('showAnswer')
+      .addEventListener('click', () => {
+        document.getElementById('antwort').style.display = 'block';
+      });
+
+    document.getElementById('next')
+      .addEventListener('click', showRandom);  // Zufalls-Karte bei Klick
   </script>
 </body>
 </html>
