@@ -1,43 +1,44 @@
+<!-- Karteikarten-Messwerte.html -->
 <!DOCTYPE html>
 <html lang="de">
 <head>
-    <meta charset="UTF-8">
-    <title>Karteikarten Messwerte</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <title>Karteikarten Messwerte</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Karteikarten Messwerte</h1>
-    <div id="karteikarte">
-        <p id="frage">Lade Frage...</p>
-        <button id="showAnswer">Antwort anzeigen</button>
-        <p id="antwort" style="display:none;"></p>
-    </div>
-    <button id="next">Nächste Karte</button>
-    <script>
-        let faList = [];
-        fetch('fragen_antworten_rettungssanitaeter_bayern_excel.csv')
-          .then(res => res.text())
-          .then(text => {
-            const lines = text.split('\n').filter(l => l.trim());
-            lines.shift(); // Header entfernen
-            lines.forEach(line => {
-              const [frage, antwort] = line.split(';');
-              faList.push({frage, antwort});
-            });
-            showRandom();
-          });
-        function showRandom() {
-          const idx = Math.floor(Math.random() * faList.length);
-          const item = faList[idx];
-          document.getElementById('frage').textContent = item.frage;
-          const antwortEl = document.getElementById('antwort');
-          antwortEl.textContent = item.antwort;
-          antwortEl.style.display = 'none';
-        }
-        document.getElementById('showAnswer').addEventListener('click', () => {
-          document.getElementById('antwort').style.display = 'block';
-        });
-        document.getElementById('next').addEventListener('click', showRandom);
-    </script>
+  <h1>Karteikarten Messwerte</h1>
+  <div id="karteikarte" class="card-container">
+    <p id="frage">Lade Frage...</p>
+    <button id="showAnswer">Antwort anzeigen</button>
+    <p id="antwort"></p>
+  </div>
+  <button id="next">Nächste Karte</button>
+
+  <script>
+    let faList = [];
+    function showRandom() {
+      const idx = Math.floor(Math.random() * faList.length);
+      const item = faList[idx];
+      document.getElementById('frage').textContent = item.frage;
+      const antwortEl = document.getElementById('antwort');
+      antwortEl.textContent = item.antwort;
+      // CSS übernimmt display:none, JS braucht es hier nicht setzen
+    }
+
+    Papa.parse('messwerte.csv', {
+      download: true,
+      header: true,
+      complete: function(results) {
+        faList = results.data;
+        showRandom();
+      }
+    });
+
+    document.getElementById('showAnswer').addEventListener('click', () => {
+      document.getElementById('antwort').style.display = 'block';
+    });
+    document.getElementById('next').addEventListener('click', showRandom);
+  </script>
 </body>
 </html>
