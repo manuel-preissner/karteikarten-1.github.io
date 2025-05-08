@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title>Quiz Messwerte</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Quiz Messwerte</h1>
+    <div id="quiz">
+        <p id="frage">Lade Frage...</p>
+        <div id="options"></div>
+        <button id="checkAnswer">Antwort prüfen</button>
+        <p id="result"></p>
+    </div>
+    <button id="next">Nächste Frage</button>
+    <script>
+        let faList = [];
+        let current = null;
+        fetch('fragen_antworten_rettungssanitaeter_bayern_excel.csv')
+          .then(res => res.text())
+          .then(text => {
+            const lines = text.split('\n').filter(l => l.trim());
+            lines.shift();
+            lines.forEach(line => {
+              const [frage, antwort] = line.split(';');
+              faList.push({frage, antwort});
+            });
+            nextQuestion();
+          });
+        function shuffle(arr) {
+          return arr.sort(() => Math.random() - 0.5);
+        }
+        function nextQuestion() {
+          document.getElementById('result').textContent = '';
+          const idx = Math.floor(Math.random() * faList.length);
+          current = faList[idx];
+          document.getElementById('frage').textContent = current.frage;
+          let options = [current.antwort];
+          const others = faList.map(item => item.antwort).filter(a => a !== current.antwort);
+          shuffle(others);
+          options = options.concat(others.slice(0, 3));
+          shuffle(options);
+          const optsDiv = document.getElementById('options');
+          optsDiv.innerHTML = '';
+          options.forEach(opt => {
+            const label = document.createElement('label');
+            const radio = document.createElement('input');
+            radio.type = 'radio'; radio.name = 'option'; radio.value = opt;
+            label.appendChild(radio);
+            label.appendChild(document.createTextNode(opt));
+            optsDiv.appendChild(label);
+            optsDiv.appendChild(document.createElement('br'));
+          });
+        }
+        document.getElementById('checkAnswer').addEventListener('click', () => {
+          const sel = document.querySelector('input[name="option"]:checked');
+          if (!sel) { alert('Bitte wähle eine Antwort.'); return; }
+          const res = document.getElementById('result');
+          if (sel.value === current.antwort) {
+            res.textContent = 'Richtig!';
+          } else {
+            res.textContent = 'Falsch! Richtige Antwort: ' + current.antwort;
+          }
+        });
+        document.getElementById('next').addEventListener('click', nextQuestion);
+    </script>
+</body>
+</html>
