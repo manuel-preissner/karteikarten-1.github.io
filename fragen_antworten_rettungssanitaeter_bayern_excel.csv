@@ -1,101 +1,114 @@
 ﻿Frage;Antwort
-Ab wann spricht man von Bradykardie?;Bei einer Herzfrequenz unter 60 Schlägen pro Minute.
-Ab wann spricht man von Tachykardie?;Bei einer Herzfrequenz über 100 Schlägen pro Minute.
-Ab wann spricht man von Hypotonie?;Bei systolischem Blutdruck unter 90 mmHg oder diastolischem Blutdruck unter 60 mmHg.
-Ab wann spricht man von Hypertonie?;Bei systolischem Blutdruck ≥ 140 mmHg und/oder diastolischem Blutdruck ≥ 90 mmHg.
-Ab wann spricht man von Tachypnoe?;Bei einer Atemfrequenz über 20 Atemzügen pro Minute.
-Ab wann spricht man von Bradypnoe?;Bei einer Atemfrequenz unter 10 Atemzügen pro Minute.
-Ab wann spricht man von Hypoxie?;Bei einer Sauerstoffsättigung (SpO2) unter 90 %.
-Ab wann spricht man von schwerer Hypoxie?;Bei einer Sauerstoffsättigung (SpO2) unter 85 %.
-Ab wann spricht man von Fieber beim Erwachsenen?;Bei einer Körperkerntemperatur über 38 °C.
-Ab wann spricht man von leichtem Fieber?;Bei 38,1 °C bis 38,5 °C.
-Ab wann spricht man von hohem Fieber?;Bei 39,1 °C bis 39,9 °C.
-Ab wann spricht man von sehr hohem Fieber?;Bei Temperaturen über 40 °C.
-Ab wann gilt ein Apgar-Score als normal?;Ein Apgar-Score von 7 bis 10 ist normal.
-Ab wann gilt ein Apgar-Score als kritisch/niedrig?;"Ein Apgar-Score von 0 bis 3 ist kritisch; 4 bis 6 ist mäßig abnormal."
-Wie tief komprimiert man beim CPR eines Erwachsenen?;5–6 cm Tiefe auf der unteren Hälfte des Sternums.
-Mit welcher Frequenz müssen CPR-Kompressionen erfolgen?;100–120 Kompressionen pro Minute.
-Ab wann spricht man von einem schweren Schädel-Hirn-Trauma nach GCS?;Bei einem GCS-Score von 3 bis 8.
-Ab wann spricht man von einem mittelschweren Schädel-Hirn-Trauma nach GCS?;Bei einem GCS-Score von 9 bis 12.
-Ab wann spricht man von einem leichten Schädel-Hirn-Trauma nach GCS?;Bei einem GCS-Score von 13 bis 15.
-Wann ist eine orthostatische Hypotonie diagnostiziert?;Wenn der systolische Blutdruck innerhalb von 3 Minuten um > 20 mmHg fällt oder unter 90 mmHg.
-Was versteht man unter Herzinsuffizienz?;Herzschwäche
-Was versteht man unter Arrhythmie?;Herzrhythmusstörung
-Was versteht man unter Dyspnoe?;Atemnot
-Was versteht man unter Apnoe?;Atemstillstand
-Was versteht man unter Anaphylaxie?;Schwere allergische Reaktion
-Was versteht man unter Hyperglykämie?;Blutzucker > 180 mg/dl
-Was versteht man unter Hypoglykämie?;Blutzucker < 60 mg/dl
-Was versteht man unter Hyperthermie?;Körpertemperatur > 41 °C
-Was versteht man unter Hypothermie?;Körpertemperatur < 35 °C
-Was versteht man unter Schock?;Kreislaufversagen mit CRP < 100 mmHg und mentaler Veränderung
-Was versteht man unter Herzinsuffizienz?;Herzschwäche
-Was versteht man unter Arrhythmie?;Herzrhythmusstörung
-Was versteht man unter Dyspnoe?;Atemnot
-Was versteht man unter Apnoe?;Atemstillstand
-Was versteht man unter Anaphylaxie?;Schwere allergische Reaktion
-Was versteht man unter Hyperglykämie?;Blutzucker > 180 mg/dl
-Was versteht man unter Hypoglykämie?;Blutzucker < 60 mg/dl
-Was versteht man unter Hyperthermie?;Körpertemperatur > 41 °C
-Was versteht man unter Hypothermie?;Körpertemperatur < 35 °C
-Was versteht man unter Schock?;Kreislaufversagen mit CRP < 100 mmHg und mentaler Veränderung
-Was versteht man unter Herzinsuffizienz?;Herzschwäche
-Was versteht man unter Arrhythmie?;Herzrhythmusstörung
-Was versteht man unter Dyspnoe?;Atemnot
-Was versteht man unter Apnoe?;Atemstillstand
-Was versteht man unter Anaphylaxie?;Schwere allergische Reaktion
-Was versteht man unter Hyperglykämie?;Blutzucker > 180 mg/dl
-Was versteht man unter Hypoglykämie?;Blutzucker < 60 mg/dl
-Was versteht man unter Hyperthermie?;Körpertemperatur > 41 °C
-Was versteht man unter Hypothermie?;Körpertemperatur < 35 °C
-Was versteht man unter Schock?;Kreislaufversagen mit CRP < 100 mmHg und mentaler Veränderung
-Was versteht man unter Herzinsuffizienz?;Herzschwäche
-Was versteht man unter Arrhythmie?;Herzrhythmusstörung
-Was versteht man unter Dyspnoe?;Atemnot
-Was versteht man unter Apnoe?;Atemstillstand
-Was versteht man unter Anaphylaxie?;Schwere allergische Reaktion
-Was versteht man unter Hyperglykämie?;Blutzucker > 180 mg/dl
-Was versteht man unter Hypoglykämie?;Blutzucker < 60 mg/dl
-Was versteht man unter Hyperthermie?;Körpertemperatur > 41 °C
-Was versteht man unter Hypothermie?;Körpertemperatur < 35 °C
-Was versteht man unter Schock?;Kreislaufversagen mit CRP < 100 mmHg und mentaler Veränderung
-Was versteht man unter Herzinsuffizienz?;Herzschwäche
-Was versteht man unter Arrhythmie?;Herzrhythmusstörung
-Was versteht man unter Dyspnoe?;Atemnot
-Was versteht man unter Apnoe?;Atemstillstand
-Was versteht man unter Anaphylaxie?;Schwere allergische Reaktion
-Was versteht man unter Hyperglykämie?;Blutzucker > 180 mg/dl
-Was versteht man unter Hypoglykämie?;Blutzucker < 60 mg/dl
-Was versteht man unter Hyperthermie?;Körpertemperatur > 41 °C
-Was versteht man unter Hypothermie?;Körpertemperatur < 35 °C
-Was versteht man unter Schock?;Kreislaufversagen mit CRP < 100 mmHg und mentaler Veränderung
-Was versteht man unter Herzinsuffizienz?;Herzschwäche
-Was versteht man unter Arrhythmie?;Herzrhythmusstörung
-Was versteht man unter Dyspnoe?;Atemnot
-Was versteht man unter Apnoe?;Atemstillstand
-Was versteht man unter Anaphylaxie?;Schwere allergische Reaktion
-Was versteht man unter Hyperglykämie?;Blutzucker > 180 mg/dl
-Was versteht man unter Hypoglykämie?;Blutzucker < 60 mg/dl
-Was versteht man unter Hyperthermie?;Körpertemperatur > 41 °C
-Was versteht man unter Hypothermie?;Körpertemperatur < 35 °C
-Was versteht man unter Schock?;Kreislaufversagen mit CRP < 100 mmHg und mentaler Veränderung
-Was versteht man unter Herzinsuffizienz?;Herzschwäche
-Was versteht man unter Arrhythmie?;Herzrhythmusstörung
-Was versteht man unter Dyspnoe?;Atemnot
-Was versteht man unter Apnoe?;Atemstillstand
-Was versteht man unter Anaphylaxie?;Schwere allergische Reaktion
-Was versteht man unter Hyperglykämie?;Blutzucker > 180 mg/dl
-Was versteht man unter Hypoglykämie?;Blutzucker < 60 mg/dl
-Was versteht man unter Hyperthermie?;Körpertemperatur > 41 °C
-Was versteht man unter Hypothermie?;Körpertemperatur < 35 °C
-Was versteht man unter Schock?;Kreislaufversagen mit CRP < 100 mmHg und mentaler Veränderung
-Was versteht man unter Herzinsuffizienz?;Herzschwäche
-Was versteht man unter Arrhythmie?;Herzrhythmusstörung
-Was versteht man unter Dyspnoe?;Atemnot
-Was versteht man unter Apnoe?;Atemstillstand
-Was versteht man unter Anaphylaxie?;Schwere allergische Reaktion
-Was versteht man unter Hyperglykämie?;Blutzucker > 180 mg/dl
-Was versteht man unter Hypoglykämie?;Blutzucker < 60 mg/dl
-Was versteht man unter Hyperthermie?;Körpertemperatur > 41 °C
-Was versteht man unter Hypothermie?;Körpertemperatur < 35 °C
-Was versteht man unter Schock?;Kreislaufversagen mit CRP < 100 mmHg und mentaler Veränderung
+Ab wann spricht man von Bradykardie?;Herzfrequenz unter 60/min
+Ab wann spricht man von Tachykardie?;Herzfrequenz über 100/min
+Ab welchem Blutdruck spricht man von Hypertonie?;Blutdruck über 140/90 mmHg
+Ab welchem Blutdruck spricht man von Hypotonie?;Systolischer Blutdruck unter 90 mmHg
+Was ist der normale Blutdruckbereich bei Erwachsenen?;120/80 mmHg (optimal)
+Wie hoch ist die normale Atemfrequenz beim Erwachsenen?;12-20 Atemzüge/min
+Ab wann spricht man von Tachypnoe?;Atemfrequenz über 20/min
+Ab wann spricht man von Bradypnoe?;Atemfrequenz unter 12/min
+Was ist der normale SpO2-Wert?;95-100%
+Ab welchem SpO2-Wert spricht man von Hypoxie?;Unter 90%
+Wie hoch ist der normale Blutzuckerwert nüchtern?;70-110 mg/dl
+Ab wann spricht man von Hypoglykämie?;Blutzucker unter 50 mg/dl
+Ab wann spricht man von Hyperglykämie?;Blutzucker über 200 mg/dl
+Was ist die normale Körpertemperatur?;36,5-37,5°C
+Ab welcher Temperatur spricht man von Fieber?;Über 38°C
+Ab welcher Temperatur spricht man von Hypothermie?;Unter 35°C
+Wie viel Sauerstoff wird bei der Standard-Sauerstofftherapie gegeben?;2-6 l/min über Nasensonde
+Wie viel Sauerstoff wird bei der Hochdosis-Sauerstofftherapie gegeben?;15 l/min über Maske mit Reservoir
+Was ist die Dosierung von Adrenalin bei der Reanimation?;1 mg alle 3-5 Minuten i.v.
+Was ist die Dosierung von Amiodaron bei der Reanimation?;300 mg nach dem 3. Schock
+Wie tief sollte die Thoraxkompression bei der Reanimation sein?;5-6 cm
+Mit welcher Frequenz wird bei der Reanimation komprimiert?;100-120/min
+Wie ist das Kompressions-Beatmungs-Verhältnis bei der Reanimation?;30:2
+Wann wird bei der Reanimation defibrilliert?;Bei Kammerflimmern und pulsloser ventrikulärer Tachykardie
+Mit welcher Energie wird beim AED defibrilliert?;Automatisch vom Gerät bestimmt (meist 150-360 J)
+Was sind die 5 H's der reversiblen Ursachen eines Kreislaufstillstands?;Hypoxie, Hypovolämie, Hyper-/Hypokaliämie, Hypothermie, Herzbeuteltamponade
+Was sind die 4 T's der reversiblen Ursachen eines Kreislaufstillstands?;Thrombose (koronar/pulmonal), Toxine, Tension-Pneumothorax, Trauma
+Was bedeutet ABCDE-Schema?;Airway, Breathing, Circulation, Disability, Exposure
+Was bedeutet SAMPLE(R)?;Symptome, Allergien, Medikamente, Patientenvorgeschichte, Letzte Nahrung, Ereignis, Risikofaktoren
+Was ist der GCS-Wert bei einem bewusstlosen Patienten?;3-8 Punkte
+Wie wird der GCS berechnet?;Augenöffnen + verbale Reaktion + motorische Reaktion (max. 15 Punkte)
+Was bedeutet OPQRST bei der Schmerzanamnese?;Onset, Provokation, Qualität, Region, Schweregrad, Time
+Welche Pupillenreaktion ist pathologisch?;Anisokorie, Lichtreaktion fehlt, Mydriasis, Miosis
+Was ist eine Anisokorie?;Unterschiedlich große Pupillen
+Wann ist eine Pupillendifferenz normal?;Bis zu 1 mm Unterschied kann physiologisch sein
+Was ist der APGAR-Score?;Beurteilungsschema für Neugeborene (Atmung, Puls, Grundtonus, Aussehen, Reflexe)
+Wann wird der APGAR-Score erhoben?;1, 5 und 10 Minuten nach Geburt
+Was bedeutet ein APGAR von 7-10?;Lebensfrisches Neugeborenes
+Was bedeutet ein APGAR von 4-6?;Mittelgradige Depression
+Was bedeutet ein APGAR von 0-3?;Schwere Depression des Neugeborenen
+Wie hoch ist die Kompressionstiefe bei der Kinder-Reanimation?;1/3 des Thoraxdurchmessers (ca. 4 cm bei Kleinkindern, 5 cm bei Kindern)
+Wie ist das Kompressions-Beatmungs-Verhältnis bei Kindern mit 2 Helfern?;15:2
+Ab welchem Alter wird wie bei Erwachsenen reanimiert?;Ab der Pubertät
+Was ist die normale Herzfrequenz bei Neugeborenen?;120-160/min
+Was ist die normale Atemfrequenz bei Neugeborenen?;30-60/min
+Was ist der normale Blutdruck bei Kindern?;Alter in Jahren x 2 + 80 mmHg (systolisch)
+Welche Nadellänge wird für die i.m. Injektion verwendet?;20-25 mm (grüne oder gelbe Kanüle)
+Wo wird i.m. injiziert?;M. deltoideus, M. vastus lateralis, M. gluteus medius
+Welcher Winkel wird bei i.m. Injektion verwendet?;90 Grad
+Welche Kanülengröße wird für i.v. Zugänge verwendet?;17G-20G (gelb bis rosa)
+Was bedeutet der FAST-Test bei Schlaganfall?;Face, Arms, Speech, Time
+Welche Symptome zeigt die Cincinnati Prehospital Stroke Scale?;Fazialisparese, Armparese, Sprachstörung
+Innerhalb welcher Zeit sollte ein Schlaganfallpatient in die Klinik?;So schnell wie möglich (Zeitfenster für Lyse: 4,5 Stunden)
+Was sind Zeichen eines akuten Myokardinfarkts?;Brustschmerz, Ausstrahlung, Kaltschweißigkeit, Übelkeit, Luftnot
+Welche Medikamente werden beim ACS gegeben?;ASS, Heparin, Sauerstoff, Morphin, Nitroglycerin (MONA-Schema)
+Was ist die Dosierung von ASS beim ACS?;500 mg i.v. oder p.o.
+Was ist die Dosierung von Morphin?;2-5 mg i.v. titriert
+Wann ist Nitroglycerin kontraindiziert?;Bei Hypotonie (RR < 90 mmHg), Rechtsherz-Infarkt, PDE-5-Hemmer-Einnahme
+Was sind Zeichen eines anaphylaktischen Schocks?;Hautreaktion, Atemwegsschwellung, Kreislaufversagen, GI-Symptome
+Was ist die Dosierung von Adrenalin bei Anaphylaxie?;0,5 mg i.m. (bei Erwachsenen)
+Wo wird Adrenalin i.m. bei Anaphylaxie gespritzt?;Lateraler Oberschenkel
+Was sind Zeichen einer Lungenembolie?;Plötzliche Luftnot, Thoraxschmerz, Tachykardie, Hämoptysen
+Was ist die Wells-Score?;Risikostratifizierung für Lungenembolie
+Was sind Zeichen eines Pneumothorax?;Luftnot, einseitig abgeschwächtes Atemgeräusch, asymmetrische Thoraxbewegung
+Was sind Zeichen eines Spannungspneumothorax?;Zusätzlich: Schock, gestaute Halsvenen, Trachealdeviation
+Wie wird ein Spannungspneumothorax entlastet?;Punktion im 2. ICR in der Medioklavikularlinie
+Was ist die normale Größe der Pupillen?;2-5 mm im Durchmesser
+Was bedeutet Mydriasis?;Weitgestellte Pupillen (> 5 mm)
+Was bedeutet Miosis?;Enggestellte Pupillen (< 2 mm)
+Welche Bewusstseinsstufen gibt es?;Wach, somnolent, soporös, komatös
+Was bedeutet WASB?;Wach, Ansprechbar auf Ansprache, Schmerzreaktion, Bewusstlos
+Wie wird die Schmerzintensität gemessen?;Numerische Rating-Skala (NRS) 0-10
+Ab welchem NRS-Wert spricht man von starken Schmerzen?;Ab 7/10
+Was ist die Dosierung von Paracetamol?;1000 mg i.v. oder p.o. (max. 4g/Tag)
+Was ist die Dosierung von Ibuprofen?;400-800 mg p.o.
+Wann ist Metamizol kontraindiziert?;Bei bekannter Allergie, Asthma, Agranulozytose
+Was sind die 5 R's der Medikamentengabe?;Richtiger Patient, richtiges Medikament, richtige Dosis, richtiger Applikationsweg, richtige Zeit
+Wie lange wird bei Atemstillstand ohne Puls reanimiert?;30 Minuten (Ausnahmen: Hypothermie, Kinder, reversible Ursachen)
+Was ist die Dosierung von Glucose 40%?;25-50 ml i.v. bei Hypoglykämie
+Wie wird der Blutzucker schnell gesenkt?;Insulin (unter ärztlicher Aufsicht)
+Was sind Zeichen einer Meningitis?;Kopfschmerz, Nackensteife, Fieber, Lichtscheu, Bewusstseinsstörung
+Wie testet man Nackensteife?;Kinn zur Brust führen (Meningismus-Zeichen)
+Was ist das Kernig-Zeichen?;Schmerzen bei Streckung des Beins bei gebeugter Hüfte
+Was ist das Brudzinski-Zeichen?;Beugung der Beine bei passiver Nackenbeugung
+Wie wird die Atemfrequenz korrekt gemessen?;30 Sekunden zählen und x2 (Patient sollte es nicht merken)
+Was ist eine Schocklage?;Oberkörper flach, Beine hoch (ca. 30°)
+Bei welchen Schockformen ist die Schocklage kontraindiziert?;Kardiogener Schock, Lungenödem, SHT
+Was sind die 4 Schockformen?;Hypovoläm, kardiogen, distributiv, obstruktiv
+Was sind Zeichen eines hypovolämischen Schocks?;Tachykardie, Hypotonie, blasse Haut, Kaltschweißigkeit
+Wie viel Volumen wird initial bei Schock gegeben?;500-1000 ml kristalloide Lösung
+Was ist die Faustregel für Flüssigkeitsbedarf bei Verbrennungen?;Parkland-Formel: 4 ml x kg KG x % verbrannte Körperoberfläche
+Wie wird die verbrannte Körperoberfläche berechnet?;Neuner-Regel oder Handflächen-Regel (1% = Handfläche des Patienten)
+Was sind erstgradige Verbrennungen?;Rötung, Schmerz (nur Epidermis betroffen)
+Was sind zweitgradige Verbrennungen?;Blasenbildung (Epidermis und Dermis betroffen)
+Was sind drittgradige Verbrennungen?;Weiß-bräunliche Verfärbung, schmerzlos (alle Hautschichten betroffen)
+Wie werden Verbrennungen initial versorgt?;Kühlen (max. 10% der Körperoberfläche), sterile Abdeckung, Wärmeerhalt
+Wie lange wird bei Verbrennungen gekühlt?;Max. 10-20 Minuten mit lauwarmem Wasser
+Was sind Zeichen eines Schädel-Hirn-Traumas?;Bewusstseinsstörung, Amnesie, Übelkeit, Erbrechen, neurologische Ausfälle
+Was ist die Einteilung des SHT?;Grad I (leicht), Grad II (mittel), Grad III (schwer)
+Wie wird die HWS immobilisiert?;Stifneck (Zervikalstütze) und Spineboard
+Wann wird die HWS immobilisiert?;Bei Verdacht auf HWS-Verletzung (Trauma, Sturz, Bewusstlosigkeit)
+Was sind die Kriterien für eine stabile Seitenlage?;Mund tiefster Punkt, Atemwege frei, keine Druckstellen, stabile Position
+Bei welchen Patienten ist die Seitenlage kontraindiziert?;Wirbelsäulenverletzung, Beckenfraktur, Thoraxtrauma
+Was ist der Esmarch-Handgriff?;Unterkiefervorschub zur Atemwegsfreimachung
+Was ist der Heimlich-Handgriff?;Oberbauchkompression bei Fremdkörperaspiration
+Wie wird der Heimlich-Handgriff durchgeführt?;Von hinten umfassen, Faust zwischen Nabel und Brustbein, ruckartige Kompression
+Was ist die Alternative zum Heimlich bei Schwangeren?;Thoraxkompressionen
+Was bedeutet DMS-Kontrolle?;Durchblutung, Motorik, Sensibilität
+Wie wird die Durchblutung kontrolliert?;Rekapillarisierung, Puls, Hautfarbe, Temperatur
+Was ist die normale Rekapillarisierungszeit?;Unter 2 Sekunden
+Was sind die Stadien der Narkose?;Analgesie, Exzitation, chirurgische Toleranz, Lähmung
+Was sind die Zeichen einer Lokalanästhetika-Intoxikation?;Metallgeschmack, Tinnitus, Schwindel, Krampfanfälle
+Was ist die maximale Lidocain-Dosis?;3 mg/kg KG (ohne Adrenalin), 7 mg/kg KG (mit Adrenalin)

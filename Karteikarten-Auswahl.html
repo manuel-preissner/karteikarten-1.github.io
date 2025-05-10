@@ -1,29 +1,25 @@
+<!-- Karteikarten-Auswahl.html -->
 <!DOCTYPE html>
 <html lang="de">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Karteikarten Quiz</title>
-  <style>
-    body { font-family: Arial, sans-serif; text-align: center; margin: 2em; }
-    #quiz { max-width: 500px; margin: 2em auto; display: none; }
-    .term { font-size: 1.5em; font-weight: bold; margin-bottom: 1em; }
-    .options button { display: block; width: 100%; margin: 0.5em 0; padding: 0.75em 1em; border: 1px solid #ccc; border-radius: 6px; background: white; cursor: pointer; }
-    .options button.correct { background-color: #c8e6c9; }
-    .options button.incorrect { background-color: #ffcdd2; }
-    #nextBtn { margin-top: 1em; padding: 0.5em 1em; display: none; }
-    a { display: inline-block; margin-top: 1em; }
-  </style>
+  <link rel="stylesheet" href="styles.css"/>
   <script src="https://cdn.jsdelivr.net/npm/papaparse@5.3.2/papaparse.min.js"></script>
 </head>
 <body>
-  <h1>Karteikarten Quiz</h1>
-  <div id="quiz">
-    <div class="term" id="term"></div>
-    <div class="options" id="options"></div>
-    <button id="nextBtn">Nächste Frage</button>
+  <div class="container">
+    <h1>Karteikarten Quiz</h1>
+
+    <div id="quiz" style="display:none;">
+      <div class="term" id="term"></div>
+      <div class="options" id="options"></div>
+      <button id="nextBtn" class="btn" style="display:none;">Nächste Frage</button>
+    </div>
+
+    <a href="index.html" class="btn btn--secondary">← Zurück zur Startseite</a>
   </div>
-  <a href="index.html">← Zurück zur Startseite</a>
 
   <script>
     let cards = [];
@@ -49,11 +45,15 @@
       currentIndex = Math.floor(Math.random() * cards.length);
       const card = cards[currentIndex];
       document.getElementById('term').textContent = card.Fremdwort;
-      const wrongs = cards.filter((c, i) => i !== currentIndex)
-                          .sort(() => 0.5 - Math.random())
-                          .slice(0, 3)
-                          .map(c => c.Bedeutung);
+
+      const wrongs = cards
+        .filter((_, i) => i !== currentIndex)
+        .sort(() => 0.5 - Math.random())
+        .slice(0, 3)
+        .map(c => c.Bedeutung);
+
       const answers = [card.Bedeutung, ...wrongs].sort(() => 0.5 - Math.random());
+
       answers.forEach(ans => {
         const btn = document.createElement('button');
         btn.textContent = ans;

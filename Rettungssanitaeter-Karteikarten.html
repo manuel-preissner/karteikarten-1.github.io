@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Karteikarten Rettungssanitäter (Direkte Anzeige)</title>
+  <link rel="stylesheet" href="styles.css"/>
+  <script src="https://cdn.jsdelivr.net/npm/papaparse@5.3.2/papaparse.min.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h1>Karteikarten Rettungssanitäter</h1>
+
+    <div id="card" style="display: none;">
+      <div id="term" class="term"></div>
+      <div id="definition" class="definition"></div> <div class="controls">
+        <button id="nextBtn" class="btn">Nächste Karte</button>
+      </div>
+    </div>
+
+    <a href="index.html" class="btn btn--secondary">← Zurück zur Startseite</a>
+  </div>
+
+  <script>
+    let cards_rs = [];
+    let currentCardIndex = -1;
+
+    function getRandomIndex() {
+      if (cards_rs.length === 0) return -1;
+      return Math.floor(Math.random() * cards_rs.length);
+    }
+
+    function showCard() {
+      if (cards_rs.length === 0) {
+        document.getElementById('card').style.display = 'none';
+        return;
+      }
+      currentCardIndex = getRandomIndex();
+      const currentData = cards_rs[currentCardIndex];
+      
+      document.getElementById('term').innerHTML = currentData.Frage ? currentData.Frage.replace(/\n/g, '<br>') : 'Frage nicht gefunden';
+      
+      const definitionElement = document.getElementById('definition');
+      // Antwort direkt anzeigen und sicherstellen, dass sie sichtbar ist
+      definitionElement.innerHTML = currentData.Antwort ? currentData.Antwort.replace(/\n/g, '<br>') : 'Antwort nicht gefunden';
+      definitionElement.style.display = 'block'; // Stellt sicher, dass die Antwort sichtbar ist (überschreibt ggf. CSS)
+      
+      document.getElementById('card').style.display = 'block';
+    }
+
+    Papa.parse('Rettungssanitaeter-Fragen.csv', {
+      download: true,
+      header: true,
+      delimiter: ';',
+      skipEmptyLines: true,
+      complete: function(results) {
+        if (results.data) {
+          cards_rs = results.data.filter(r => r.Frage && r.Frage.trim() !== "" && r.Antwort);
+          if (cards_rs.length > 0) {
+            showCard();
+          } else {
+            document.getElementById('card').style.display = 'none';
+            alert('Konnte keine gültigen Karteikarten aus der CSV-Datei laden. Bitte überprüfen Sie die CSV-Datei und die Spaltennamen "Frage" und "Antwort".');
+          }
+        } else {
+          document.getElementById('card').style.display = 'none';
+          alert('Fehler beim Parsen der CSV-Datei: ' + (results.errors.length > 0 ? results.errors[0].message : 'Unbekannter Fehler'));
+        }
+      },
+      error: function(error) {
+        document.getElementById('card').style.display = 'none';
+        alert('Fehler beim Laden der CSV-Datei: ' + error);
+      }
+    });
+
+    // Der Event-Listener für "showBtn" wurde entfernt, da der Button nicht mehr existiert.
+
+    document.getElementById('nextBtn').addEventListener('click', showCard);
+  </script>
+</body>
+</html>

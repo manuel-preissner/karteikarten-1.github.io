@@ -1,28 +1,65 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Startseite Karteikarten</title>
-  <style>
-    body { font-family: Arial, sans-serif; text-align: center; margin: 2em; }
-    h1 { margin-bottom: 1.5em; }
-    .btn {
-      display: inline-block;
-      margin: 0.5em;
-      padding: 1em 2em;
-      font-size: 1em;
-      text-decoration: none;
-      color: white;
-      background-color: #007BFF;
-      border-radius: 6px;
-    }
-    .btn:hover { background-color: #0056b3; }
-  </style>
+  <link rel="stylesheet" href="styles.css"/>
 </head>
 <body>
-  <h1>Karteikarten-Übung</h1>
-  <a href="Karteikarten.html" class="btn">Karteikarten ansehen</a>
-  <a href="Karteikarten-Auswahl.html" class="btn">Karteikarten Quiz</a>
+  <div class="container">
+    <h1>Karteikarten-Übung</h1>
+
+    <div>
+      <button id="fremdBtn" class="btn">Fremdwörter</button>
+      <div id="fremdOptions" class="submenu">
+        <a href="Karteikarten.html" class="btn">Karteikarten ansehen</a>
+        <a href="Karteikarten-Auswahl.html" class="btn">Karteikarten Quiz</a>
+      </div>
+    </div>
+
+    <div>
+      <button id="messBtn" class="btn">Messwerte</button>
+      <div id="messOptions" class="submenu">
+        <a href="Karteikarten-Messwerte.html" class="btn">Messwerte-Übersicht</a>
+        <a href="Karteikarten-Messwerte-Quiz.html" class="btn">Messwerte Quiz</a>
+      </div>
+    </div>
+
+    <div>
+      <button id="rsBtn" class="btn">Rettungssanitäter</button>
+      <div id="rsOptions" class="submenu">
+        <a href="Rettungssanitaeter-Karteikarten.html" class="btn">Karteikarten ansehen</a>
+        </div>
+    </div>
+    </div>
+
+  <script>
+    const fremdBtn = document.getElementById('fremdBtn');
+    const messBtn  = document.getElementById('messBtn');
+    const rsBtn = document.getElementById('rsBtn'); // Neuer Button
+
+    const fremdOpt = document.getElementById('fremdOptions');
+    const messOpt  = document.getElementById('messOptions');
+    const rsOpt = document.getElementById('rsOptions'); // Neues Submenü
+
+    fremdBtn.addEventListener('click', () => {
+      fremdOpt.style.display = fremdOpt.style.display === 'block' ? 'none' : 'block';
+      messOpt.style.display  = 'none';
+      rsOpt.style.display = 'none'; // Schließe andere Submenüs
+    });
+
+    messBtn.addEventListener('click', () => {
+      messOpt.style.display  = messOpt.style.display === 'block' ? 'none' : 'block';
+      fremdOpt.style.display = 'none';
+      rsOpt.style.display = 'none'; // Schließe andere Submenüs
+    });
+
+    rsBtn.addEventListener('click', () => {
+      rsOpt.style.display = rsOpt.style.display === 'block' ? 'none' : 'block';
+      fremdOpt.style.display = 'none';
+      messOpt.style.display = 'none'; // Schließe andere Submenüs
+    });
+  </script>
 </body>
 </html>

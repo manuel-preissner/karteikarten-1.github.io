@@ -1,0 +1,138 @@
+/* styles.css */
+
+/* Farb- und Schrift-Variablen */
+:root {
+  --font-family: 'Arial, sans-serif';
+  --color-primary: #007BFF;
+  --color-secondary: #28a745;
+  --color-background: #f8f9fa;
+  --color-text: #333;
+  --btn-radius: 6px;
+  --transition-speed: 0.3s;
+}
+
+/* Reset & Basislayout */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: var(--font-family);
+  background-color: var(--color-background);
+  color: var(--color-text);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+}
+
+/* Container für zentrierten Content */
+.container {
+  max-width: 800px;
+  width: 100%;
+  padding: 2rem;
+}
+
+/* Überschriften */
+h1, h2, h3 {
+  color: var(--color-primary);
+  margin-bottom: 1rem;
+}
+
+/* Buttons */
+.btn {
+  display: inline-block;
+  margin: 0.5rem;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  text-decoration: none;
+  text-align: center;
+  color: #fff;
+  background-color: var(--color-primary);
+  border: none;
+  border-radius: var(--btn-radius);
+  cursor: pointer;
+  transition: background-color var(--transition-speed);
+}
+.btn:hover {
+  filter: brightness(0.9);
+}
+.btn--secondary {
+  background-color: var(--color-secondary);
+}
+.btn--secondary:hover {
+  filter: brightness(0.9);
+}
+
+/* Submenu (Indexseite) */
+.submenu {
+  display: none;
+  margin-top: 1rem;
+}
+
+/* Card Layout */
+#card {
+  display: none;
+  margin: 2rem auto;
+  padding: 1.5rem;
+  border: 1px solid #ccc;
+  border-radius: var(--btn-radius);
+  background-color: #fff;
+  max-width: 600px;
+}
+.term {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+.definition {
+  font-size: 1.125rem;
+  margin-bottom: 1rem;
+  display: none;
+}
+
+/* Controls mit gleich großen Buttons */
+.controls {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+.controls .btn {
+  margin: 0;
+  flex: 1;
+}
+/* Entfernt den extra Versatz beim Karten-„Nächste Karte“-Button */
+.controls #nextBtn {
+  margin-top: 0;
+}
+
+/* Quiz Options */
+.options {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  margin-top: 1rem;
+}
+.options button {
+  width: 100%;
+  margin: 0.5rem 0;
+  padding: 0.75rem 1rem;
+  border: 1px solid #ccc;
+  border-radius: var(--btn-radius);
+  background: #fff;
+  cursor: pointer;
+}
+.options button.correct {
+  background-color: #c8e6c9;
+}
+.options button.incorrect {
+  background-color: #ffcdd2;
+}
+
+/* Abstand für den Quiz-„Nächste Frage“-Button */
+.options #nextBtn {
+  margin-top: 1rem;
+  padding: 0.75rem 1.5rem;
+}
